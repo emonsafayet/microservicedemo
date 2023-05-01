@@ -11,5 +11,10 @@ namespace Catalog.API.Manager
         {
 
         }
+
+        public List<Product> GetByCategory(string category)
+        {
+            return GetAll(c => c.Category == category).ToList();
+        }
     }
 }

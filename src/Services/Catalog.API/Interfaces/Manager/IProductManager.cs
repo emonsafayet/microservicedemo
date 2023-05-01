@@ -5,6 +5,6 @@ namespace Catalog.API.Interfaces.Manager
 {
     public interface IProductManager : ICommonManager<Product>
     {
-
+        public List<Product> GetByCategory(string category);
     }
 }
