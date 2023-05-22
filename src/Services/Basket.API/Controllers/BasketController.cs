@@ -1,9 +1,7 @@
 ﻿using Basket.API.Models;
 using Basket.API.Repositories;
 using CoreApiResponse;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Controllers;
 using System.Net;
 
 namespace Basket.API.Controllers
